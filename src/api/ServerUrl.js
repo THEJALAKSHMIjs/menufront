@@ -1,1 +1,1 @@
-export const SERVER_URL = "https://menuback-nup3.onrender.com"; 
+export const SERVER_URL = "https://menuback-2.onrender.com"; 
