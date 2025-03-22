@@ -1,0 +1,56 @@
+.custom-navbar,
+.custom-navbar .nav-link,
+.custom-navbar .navbar-brand,
+.custom-navbar .dropdown-item {
+  color:white!important;
+  background-color:transparent;
+ 
+  
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .dropdown-item:hover,
+.nav-hover:hover {
+  color: #0796EF !important;
+}
+
+
+.nav-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Make sure it spans the whole width */
+}
+
+
+/* Default styles for nav links */
+.nav-center .nav-link {
+  font-size: 1rem; /* Default font size */
+  margin: 20px; /* Default spacing */
+  
+}
+
+/* Responsive styles for nav links */
+.responsive-nav .nav-link {
+  font-size: 1.5rem; /* Larger font size in responsive mode */
+  margin: 10px; /* Move links downward with more spacing */
+  display: block; /* Ensure each link is on a new line */
+}
+
+
+/* Center the brand in responsive mode */
+.center-brand {
+  position: absolute;
+  left: 48%;
+  top: 10px;
+    
+}
+
+
+.nav-link {
+  text-decoration: none; /* Removes the underline */
+  margin-right: 10px; /* Adds space between the links */
+  color: inherit; /* Keeps the text color */
+}
+
+
